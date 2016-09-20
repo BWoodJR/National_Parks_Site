@@ -9,6 +9,7 @@
     h1
     {
       background-color: #6B8E23;
+      background: rgba(76, 175, 80, 0.6);
       Color:black;
       Font-family:Arial;
       Font-size: 64px
@@ -16,6 +17,7 @@
     p
     {
       background-color: #6B8E23;
+      background: rgba(76, 175, 80, 0.6);
       Color:black;
       Font-family:Arial;
       Font-Size: 30px;
@@ -23,16 +25,20 @@
     ul
     {
       background-color: #6B8E23;
-      margin-left:300px;
-      margin-right:300px;
       Color:black;
       Font-family:Arial;
-      Font-Size: 30px;
+      Font-Size: 45px;
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    a:hover
+    {
+      opacity: .75;
     }
     </style>
   </head>
   <body>
-      <audio autoplay="shenandoah.mp4">
       <source src="shenandoah.mp4" type="audio/mp4">
       </audio>
     <body background="yosemite.jpg">
@@ -42,9 +48,25 @@
       <p>
 The National Park Service turns 100 on August 25, 2016. Everyone is invited to participate as we kick off a second century of caring for America's special places.
       </p>
-
-    <!-- Find a way to limit the size of green background on the page -->
-    </p>
+      <div style="float: left">
+      <ul style="list-style:none;">
+        <li> Find a Park </li>
+          <center> <video width="380" height="290" autoplay loop>
+          <source src="Parkloop.mp4" type="video/mp4" hspace=20px> </center>
+      </ul>
+    </div>
+    <ul style="list-style:none;">
+      <li> Wildlife </li>
+        <center> <video width="380" height="290" autoplay loop>
+        <source src="wildlife.mp4" type="video/mp4" hspace=20px> </center>
+    </ul>
+    <div style="float: right">
+      <ul style="list-style:none;">
+        <li> Donate or Volunteer </li>
+        <center> <video width="380" height="290" autoplay loop>
+        <source src="volunteer.mp4" type="video/mp4"> </center>
+      </ul>
+    </div>
   </center>
     <center>
    <a href="https://www.nps.gov/index.htm"> <img src="Brand.png"> </a>
