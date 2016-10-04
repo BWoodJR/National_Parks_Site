@@ -2,10 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>National Parks</title>
+    <title>National Park Centennial</title>
     <style type="text/css">
-    Body
-
+    video{
+      width: 380px;
+      height: 290px;
+      transition:transform 0.3s ease-out;
+    }
+    video:hover{
+      transform:scale(1.25,1.25);
+    }
     h1
     {
       background-color: #6B8E23;
@@ -21,55 +27,57 @@
       Color:black;
       Font-family:Arial;
       Font-Size: 30px;
+      margin-left: 270px;
+      margin-right: 270px;
     }
     ul
     {
-      background-color: #6B8E23;
+      background-color: #78AB46;
       Color:black;
       Font-family:Arial;
       Font-Size: 45px;
       display: inline-block;
       padding-left: 20px;
       padding-right: 20px;
+      padding-top: 30px;
+      font-weight: bold;
     }
     a:hover
     {
-      opacity: .75;
+      transform: scale(1.25,1.25);
     }
     </style>
   </head>
   <body>
-      <source src="shenandoah.mp4" type="audio/mp4">
-      </audio>
-    <body background="yosemite.jpg">
-      <div style="text-align: right;"><IMG SRC="centenial.png" ALT="image"></div>
+    <body background="images/yosemite.jpg">
+      <div style="text-align: right;"><IMG SRC="images/centenial.png" ALT="image"></div>
       <div style="text-align: Center;"><h1> Celebrate 100 Years at your Favorite Park </h1></div>
       <center>
       <p>
-The National Park Service turns 100 on August 25, 2016. Everyone is invited to participate as we kick off a second century of caring for America's special places.
+        The National Park Service turns 100 on August 25, 2016. Everyone is invited to participate as we kick off a second century of caring for America's special places.
       </p>
       <div style="float: left">
       <ul style="list-style:none;">
         <li> Find a Park </li>
-          <center> <video width="380" height="290" autoplay loop>
-          <source src="Parkloop.mp4" type="video/mp4" hspace=20px> </center>
+          <center> <a href="Parks.html"><video autoplay loop>
+          <source src="images/Parkloop.mp4" type="video/mp4" hspace=20px> </a> </center>
       </ul>
     </div>
     <ul style="list-style:none;">
       <li> Wildlife </li>
-        <center> <video width="380" height="290" autoplay loop>
-        <source src="wildlife.mp4" type="video/mp4" hspace=20px> </center>
+        <center> <video autoplay loop>
+        <source src="images/wildlife.mp4" type="video/mp4" hspace=20px> </center>
     </ul>
     <div style="float: right">
       <ul style="list-style:none;">
-        <li> Donate or Volunteer </li>
-        <center> <video width="380" height="290" autoplay loop>
-        <source src="volunteer.mp4" type="video/mp4"> </center>
+        <li> Donate/Volunteer </li>
+        <center> <a href="https://www.nps.gov/getinvolved/volunteer.htm"> <video autoplay loop>
+        <source src="images/volunteer.mp4" type="video/mp4"> </a> </center>
       </ul>
     </div>
   </center>
     <center>
-   <a href="https://www.nps.gov/index.htm"> <img src="Brand.png"> </a>
+   <a href="https://www.nps.gov/index.htm"><img src="images/Brand.png"> </a>
   </center>
   </body>
 </html>
